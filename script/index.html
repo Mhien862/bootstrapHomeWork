@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       //  console.log("Welcome to JS");
+      //  alert("Welcome to JS");
+       // confirm("Welcome to JS");
+       //console.log(typeof 42);
+       //console.log(typeof apple);
+       //var a = 5;
+       //var b =  a++ -(-a);
+       //console.log(b);
+      //var massage = "Hello World";
+
+     //massage.indexOf("hello");
+     //console.log(massage.split( " " ).join(" , "));
+    
+
+     //let arr = "hey";
+     //let result = arr.repeat(3)
+     //console.log(result)
+
+     // Hàm tính điểm trung bình
+function xepHangHocSinh(danhSachDiem) {
+  if (diemSo.length === 0) {
+    return "Null";
+  }
+
+  var tongDiem = 0;
+  for (var i = 0; i < diemSo.length; i++) {
+    tongDiem += diemSo[i];
+  }
+
+  var diemTrungBinh = tongDiem / danhSachDiem.length;
+  var xepHang = "";
+
+  if (diemTrungBinh >= 0 && diemTrungBinh <= 70) {
+    xepHang = "D ";
+  } else if (diemTrungBinh <= 80) {
+    xepHang = "C ";
+  } else if (diemTrungBinh <= 90) {
+    xepHang = "B ";
+  } else if (diemTrungBinh <= 100) {
+    xepHang = "A ";
+  } else {
+    xepHang = "Not grade";
+  }
+
+  return "Điểm trung bình: " + diemTrungBinh + ", Hạng: " + xepHang;
+}
+
+////////////////////////////////////////
+var diemSo = [85, 90, 78, 92, 88];
+var ketQua = xephangHocSinh(diemSo);
+console.log(ketQua);
+
+
+
+
+
+
+    </script>
+</body>
+</html>

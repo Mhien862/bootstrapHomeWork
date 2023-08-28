@@ -1,0 +1,19 @@
+.sidebar {
+    width: 30%;
+    float: left;
+   
+    
+}
+
+.main{
+    width: 70%;
+    float: right;
+}
+
+.card1 {
+    display: flex;
+}
+
+.card {
+    color: aliceblue;
+}
